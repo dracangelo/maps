@@ -18,12 +18,12 @@ export default function Map() {
   const [directions, setDirections] = useState<DirectionsResult>();
   const mapRef = useRef<GoogleMap>();
   const center = useMemo<LatLngLiteral>(
-    () => ({ lat: 43.45, lng: -80.49 }),
+    () => ({ lat: 36, lng: 36 }),
     []
   );
   const options = useMemo<MapOptions>(
     () => ({
-      mapId: "b181cac70f27f5e6",
+      mapId: "8ac194a3cb7542c5",
       disableDefaultUI: true,
       clickableIcons: false,
     }),
